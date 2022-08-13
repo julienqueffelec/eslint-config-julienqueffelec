@@ -1,0 +1,20 @@
+{
+  "name": "eslint-config-julienqueffelec",
+  "version": "1.0.0",
+  "description": "My configuration for rn",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Julien Queffelec",
+  "dependencies": {
+    "@react-native-community/eslint-config": "3.1.0",
+    "eslint-plugin-import": "2.25.4",
+    "prettier": "^2.7.1",
+    "typescript": "4.3.5"
+  },
+    "devDependencies": {
+    "eslint": "8.11.0"
+  },
+  "license": "ISC"
+}
