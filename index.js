@@ -1,9 +1,9 @@
 module.exports = {
-  parser: '@typescript-eslint/parser',
   extends: [
     'plugin:@typescript-eslint/recommended',
     'plugin:react/recommended',
-    'standard'
+    'standard',
+    'prettier'
   ],
   plugins: [
     '@typescript-eslint',
@@ -15,11 +15,10 @@ module.exports = {
     'import',
     'unused-imports',
     'import',
+    'prettier',
     'jest'
   ],
   rules: {
-    '@typescript-eslint/eslint-plugin': '^5.0.0',
-    '@typescript-eslint/parser': '5.28.0',
     '@typescript-eslint/ban-ts-comment': 'off',
     '@typescript-eslint/ban-ts-ignore': 'off',
     '@typescript-eslint/consistent-type-imports': [
@@ -52,8 +51,6 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': ['error'],
     '@typescript-eslint/no-var-requires': 'off',
     '@typescript-eslint/prefer-optional-chain': 'error',
-    '@typescript-eslint/require-await': 'error',
-    '@typescript-eslint/return-await': 'error',
     'arrow-body-style': ['error', 'as-needed'],
     'arrow-parens': ['error', 'as-needed'],
     'block-scoped-var': ['error'],
