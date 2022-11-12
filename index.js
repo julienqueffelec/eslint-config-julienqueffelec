@@ -254,7 +254,7 @@ module.exports = {
     'react/no-array-index-key': 'off',
     'react/no-multi-comp': 'error',
     'react/no-unescaped-entities': 'off',
-    'react/no-unstable-nested-components': ['warn'],
+    'react/no-unstable-nested-components': ['error'],
     'react/no-unused-prop-types': 'error',
     'react/prefer-stateless-function': 'error',
     'react/prop-types': 'off',
