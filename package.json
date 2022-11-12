@@ -6,6 +6,11 @@
   "scripts": {
     "semantic-release": "semantic-release"
   },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
   "author": "Julien Queffelec <julienqueffelec@me.com>",
   "dependencies": {
     "@react-native-community/eslint-config": "3.1.0",
