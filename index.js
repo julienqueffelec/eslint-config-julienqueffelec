@@ -122,7 +122,7 @@ module.exports = {
     'no-else-return': 'error',
     'no-lonely-if': 'error',
     'no-negated-condition': 'error',
-    'no-nested-ternary': ['warn'],
+    'no-nested-ternary': ['error'],
     'no-param-reassign': ['error'],
     'no-restricted-exports': 'warn',
     'no-shadow': ['off'],
