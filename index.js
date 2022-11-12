@@ -1,12 +1,25 @@
 module.exports = {
-  plugins: ['import'],
+  parser: '@typescript-eslint/parser',
   extends: [
     'plugin:@typescript-eslint/recommended',
-    '@react-native-community',
-    'prettier',
-    'plugin:import/typescript'
+    'plugin:react/recommended',
+    'standard'
+  ],
+  plugins: [
+    '@typescript-eslint',
+    'react',
+    'react-native',
+    'react-hooks',
+    'eslint-plugin-import-helpers',
+    'simple-import-sort',
+    'import',
+    'unused-imports',
+    'import',
+    'jest'
   ],
   rules: {
+    '@typescript-eslint/eslint-plugin': '^5.0.0',
+    '@typescript-eslint/parser': '5.28.0',
     '@typescript-eslint/ban-ts-comment': 'off',
     '@typescript-eslint/ban-ts-ignore': 'off',
     '@typescript-eslint/consistent-type-imports': [
