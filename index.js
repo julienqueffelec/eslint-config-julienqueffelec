@@ -214,7 +214,7 @@ module.exports = {
     'react-hooks/exhaustive-deps': 'warn',
     'react-hooks/rules-of-hooks': 'error',
     'react-native/no-color-literals': 'error',
-    'react-native/no-inline-styles': 'warn',
+    'react-native/no-inline-styles': 'error',
     'react-native/no-unused-styles': 'error',
     'react-native/split-platform-components': 'error',
     'react/destructuring-assignment': [

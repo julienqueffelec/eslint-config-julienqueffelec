@@ -18,9 +18,6 @@ jobs:
       - name: 📦 Install dependencies
         run: yarn install
 
-      - name: 🚀 Build app
-        run: yarn build
-
       - name: ⚓ Semantic release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
