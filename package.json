@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-julienqueffelec",
-  "version": "1.10.0",
+  "version": "1.11.0",
   "description": "My configuration for rn",
   "main": "index.js",
   "scripts": {
